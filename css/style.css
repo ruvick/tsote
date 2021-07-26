@@ -121,13 +121,25 @@ h6 {
   font-size: inherit; }
 
 body {
-  color: #1a1818;
-  font-size: 14px;
+  color: #5E5E5E;
+  font-size: 20px;
   font-weight: 400; }
   body a {
-    color: #1a1818; }
+    color: #5E5E5E; }
   body.lock {
     overflow: hidden; }
+
+h1 {
+  font-size: 44px;
+  font-weight: 500;
+  line-height: 52.8px;
+  color: #fff; }
+
+h2 {
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 36px;
+  color: #000; }
 
 .wrapper {
   width: 100%;
@@ -148,7 +160,7 @@ body {
   padding: 35px 0; }
 
 .container {
-  max-width: 1170px;
+  max-width: 1240px;
   margin: 0 auto;
   width: 100%; }
 
@@ -175,15 +187,15 @@ body {
   -ms-flex-align: center;
   align-items: center;
   text-align: center;
-  padding: 3px;
-  width: 164px;
-  height: 37px;
+  padding: 6px 8px;
+  min-width: 144px;
+  min-height: 36px;
   font-family: 'Lato';
+  font-size: 12px;
   font-weight: 400;
-  font-size: 22px;
-  color: #fff;
-  background: #0070bf;
-  border-radius: 35px; }
+  color: #000;
+  background: #FFE417;
+  border-radius: 5px; }
   .btn.fw {
     width: 100%; }
 
