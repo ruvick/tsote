@@ -2,8 +2,14 @@
   padding: 40px 0;
 }
 
+.category h1 {
+  color: #000;
+  margin-bottom: 40px;
+}
+
 .breadcrumb {
 	// padding-left: 13px;
+  margin-bottom: 40px;
 }
 .breadcrumb ul {
 	display: flex;
@@ -23,4 +29,106 @@
   text-decoration: underline;
 }
 
+.info__card-block {
+  background: #fff;
+  border-radius: 10px;
+  margin-bottom: 48px;
+}
+
+.info__card-block-desc {
+  padding: 39px 58px 40px 40px;
+  p {
+    font-size: 16px;
+    line-height: 19.2px;
+    margin-bottom: 20px;
+  }
+}
+.info__charact {
+  margin-bottom: 44.3px;
+}
+.info__charact-row {
+  justify-content: space-between;
+  font-size: 16px;
+  margin-bottom: 15px;
+}
+.info__charact-row:last-child {
+  margin-bottom: 0;
+}
+.info__charact-name {
+  color: #000;
+}
+
+.info__charact-name:before {
+  content: '';
+  float: left;
+  width: 13px;
+  height: 17px;
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  margin-right: 10px;
+}
+
+.charact-name-icon-1::before {
+  background-image: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB3aWR0aD0iMTMiIGhlaWdodD0iMTciIHZpZXdCb3g9IjAgMCAxMyAxNyI+DQogIDxpbWFnZSBpZD0iZmlsZS1kb2N1bWVudC1vdXRsaW5lIiB3aWR0aD0iMTMiIGhlaWdodD0iMTciIHhsaW5rOmhyZWY9ImRhdGE6aW1hZ2UvcG5nO2Jhc2U2NCxpVkJPUncwS0dnb0FBQUFOU1VoRVVnQUFBQTBBQUFBUkNBWUFBQUFHL3lhY0FBQUFCSE5DU1ZRSUNBZ0lmQWhraUFBQUFOUkpSRUZVS0ZOanpENnV6Y1BBd0JBQnhDQWFHOWdNRkx5TExNRUkxTFFHS0JDTVF3TkkrQ2tRT3dEeEhaZ2FrS2I3UU00dklBN0hvbkVPVU13WVhTTkkwd09nNEFjZ05zQ2k2UUJRekI0cURyZVJGRTF3cDVLcUNhVHhFaUZOS21paEN2S2pDQ0ZONk40RStWRUJYUk1vdmpTd0JNZ05vTmdLSU1hcWFRTlF3aCtMcG8xQXNRQmNtc1NBRWx4WU5IMERpcjNDcGNrSktDR0hwR2tma1AwSWlVK1U4d0tCR2tCT2hnR3Ntc3lCc3BKSWlrNEMyYyt4YWNLWDl0QzlCNG9uWVdKU09ickd0U0JOaFBJVHNxWXZvUGdDQUVTVFY4dGE0Q3piQUFBQUFFbEZUa1N1UW1DQyIvPg0KPC9zdmc+DQo=');
+}
+
+.charact-name-icon-2::before {
+  background-image: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB3aWR0aD0iMTEiIGhlaWdodD0iMTciIHZpZXdCb3g9IjAgMCAxMSAxNyI+DQogIDxpbWFnZSBpZD0idGltZXItc2FuZCIgd2lkdGg9IjExIiBoZWlnaHQ9IjE3IiB4bGluazpocmVmPSJkYXRhOmltYWdlL3BuZztiYXNlNjQsaVZCT1J3MEtHZ29BQUFBTlNVaEVVZ0FBQUFzQUFBQVJDQVlBQUFBTDRWYmJBQUFBQkhOQ1NWUUlDQWdJZkFoa2lBQUFBTlpKUkVGVUtGTmp6RDZ1TGNQQXdCQUN4SVRBWmthZ1lnZWdxdjJFVkFMbEE1RVYxd01GTm1IUjVBY1VhMFJYbkFnVVdBSEVGa2dhVGdEWkVVQThIMTF4RWxCZ0RSQ2ZCMkpsSUw0THhJWlEvOHlES1ZhQ0tuZ05wRUh1QjRFNVFKd0NaUjhBMHFKQWJBNXlNMGpNSEloM0FURk13eE1nR3hSS01JVnVRUFpKbUdKMERURkFnU1ZRRThFS1FRcVFGWVA0R1VBOEhXbzlpTW9FNGhrd1Bsa21FKzFtOU5BQWVRNEdrRDBKRGcwSG9Bd291a0hoREFwOGRBQ0tMSGc0d3hTREJCZGdVWndBTllUOHRJSEZVQlFoc01sRXAyY0FrWlZQVlpPWStzY0FBQUFBU1VWT1JLNUNZSUk9Ii8+DQo8L3N2Zz4NCg==');
+}
+
+.charact-name-icon-3::before {
+  background-image: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB3aWR0aD0iMTIiIGhlaWdodD0iMTUiIHZpZXdCb3g9IjAgMCAxMiAxNSI+DQogIDxpbWFnZSBpZD0iY3VycmVuY3ktcnViIiB3aWR0aD0iMTIiIGhlaWdodD0iMTUiIHhsaW5rOmhyZWY9ImRhdGE6aW1hZ2UvcG5nO2Jhc2U2NCxpVkJPUncwS0dnb0FBQUFOU1VoRVVnQUFBQXdBQUFBUENBWUFBQURRNFM1SkFBQUFCSE5DU1ZRSUNBZ0lmQWhraUFBQUFPQkpSRUZVS0ZOanpENnV6UUFFQVZBTVlxT0RlMENCV1VEOEFpVEJDTlhRQUdUWFkxTU5GWHNIcEIyQStESzZCa09nNEFVa2pleEFkZ2dRTHdUaTQwQnNTMGdEVE85YUlDTUlpRG1KMWJBRHFOZ1Zwb0VEeU9nQTRud2c5Z2JpYTFpYzFBSVUyd3JFUGlBYlFKN1pqOGZESUttN1FPd0V4STlBR2xTQWpDVkFiQTdFeTRENE5aTG1IMUFiVndQcDd5QnhZdjBBTndPa3dRYkkyd1BFb0NEOEFzUi9rV3o0Q0dUTEl6c1hwRUVIS0xBR2lOV0IrQUFRZ3hUQndGY2dJeHBkQTRqZkFNU2dtRWFQT0dTMVlEWlpmaURMQmxocXJRUHFmb1RoRGlRQkFMdVFRNUhVMi9EcEFBQUFBRWxGVGtTdVFtQ0MiLz4NCjwvc3ZnPg0K');
+}
+
+.info__charact-line {
+  flex: 1 1 auto;
+  height: 1px;
+  align-self: flex-end;
+  border-bottom: 1px solid #E7E7E7;
+  margin: 0 10px 0 10px;
+}
+.info__charact-desc {
+
+}
+
+.info__card-block-img {
+  flex: 0 0 510px;
+  max-height: 361px;
+  overflow: hidden;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.info__card-block-img img {
+  max-width: 100%;
+  width: 100%;
+  height: 100%;
+}
+
+.info__desc p {
+  line-height: 24px;
+  margin-bottom: 25px;
+}
+
+.info__desc ul {
+  margin-bottom: 25px;
+}
+
+.info__desc ul li:before {
+  content: '';
+  float: left;
+  width: 7px;
+  height: 6px;
+  background: #6BC72B;
+  margin-top: 7px;
+  margin-right: 10px;
+}
 //====================================================================================================
+
+.also {
+  padding-bottom: 70px;
+}
+
+.also h2 {
+  margin-bottom: 31px;
+}
