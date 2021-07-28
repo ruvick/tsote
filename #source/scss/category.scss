@@ -1,0 +1,26 @@
+.category {
+  padding: 40px 0;
+}
+
+.breadcrumb {
+	// padding-left: 13px;
+}
+.breadcrumb ul {
+	display: flex;
+	align-items: center; 
+	flex-wrap: wrap;
+}
+.breadcrumb ul li {
+	font-size: 14px;
+	line-height: 23px;
+	color: #000;
+}
+.breadcrumb ul li a {
+	font-size: 14px;
+	line-height: 23px;
+	margin-right: 5px;
+	color: #5E5E5E;
+  text-decoration: underline;
+}
+
+//====================================================================================================
