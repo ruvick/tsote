@@ -51,8 +51,8 @@ if (document.body.clientWidth > 1024) {
 
 // // Slider на главной
 $('.clients__slider').slick({
-	arrows: false,
-	dots: true,
+	arrows: true,
+	dots: false,
 	infinite: true,
 	speed: 1000,
 	slidesToShow: 5,
