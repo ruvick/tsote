@@ -87,13 +87,7 @@
 		width: 100%;
 		justify-content: flex-end;}
 	.header__email {
-		margin-right: 20px;
-		font-size: 0; }
-	.header__email::before {
-		width: 21px;
-    height: 17px;
-		margin-right: 0;
-    margin-top: 0; }
+		display: none; }
 	.header__phone::before { 
 		width: 16px;
 		height: 16px;
@@ -107,6 +101,8 @@
 		height: 13px;
 		margin-top: 4px;
 		margin-right: 10px; }
+	.footer__contact .header__email {
+			display: block; }
 	.footer__logo {
 		margin-right: 5px; }
 }
