@@ -1646,9 +1646,15 @@ body.ie .ibg img {
   .container {
     padding: 0 10px; } }
 
+@media (max-width: 1150px) {
+  .slider__item {
+    padding: 80px 0; } }
+
 @media (max-width: 1024px) {
   .menu a {
-    padding: 0 0 8px 20px; } }
+    padding: 0 0 8px 20px; }
+  .slider__item {
+    padding: 45px 0 60px 0; } }
 
 @media (max-width: 940px) {
   .header__menu {
@@ -1658,7 +1664,16 @@ body.ie .ibg img {
   .footer__logo {
     margin-right: 30px; } }
 
+@media (max-width: 860px) {
+  .slider__item {
+    padding: 30px 0 60px 0; }
+  .slider .slick-dots {
+    bottom: 5%;
+    right: 15%; } }
+
 @media (max-width: 768px) {
+  .page {
+    padding-top: 50px; }
   .header {
     position: fixed;
     width: 100%;
@@ -1706,7 +1721,9 @@ body.ie .ibg img {
     -ms-flex: 0 0 198px;
     flex: 0 0 198px; }
   .footer__menu li {
-    margin-bottom: 8px; } }
+    margin-bottom: 8px; }
+  .slider__item {
+    padding: 30px 0 85px 0; } }
 
 @media (max-width: 700px) {
   .mob-menu {
@@ -1794,6 +1811,10 @@ body.ie .ibg img {
     display: none; }
   .footer__contact .header__email {
     display: block; } }
+
+@media (max-width: 414px) {
+  .slider__text {
+    padding: 15px; } }
 
 @media (max-width: 360px) {
   .header__phone {
