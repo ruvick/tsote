@@ -16,6 +16,8 @@
 	}
 	.slider__item {
 		padding: 45px 0 60px 0; }
+	.about {
+		padding: 35px 0 60px 0; }
 }
 
 @media (max-width: 940px) { 
@@ -143,6 +145,8 @@
 	.footer__contact {
 		align-items: flex-start;
 		margin-left: 0; }
+	.about p {
+		text-align: justify; }
 }
 
 @media (max-width: 480px) {

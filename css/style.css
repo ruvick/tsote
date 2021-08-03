@@ -1654,7 +1654,9 @@ body.ie .ibg img {
   .menu a {
     padding: 0 0 8px 20px; }
   .slider__item {
-    padding: 45px 0 60px 0; } }
+    padding: 45px 0 60px 0; }
+  .about {
+    padding: 35px 0 60px 0; } }
 
 @media (max-width: 940px) {
   .header__menu {
@@ -1780,7 +1782,9 @@ body.ie .ibg img {
     -webkit-box-align: start;
     -ms-flex-align: start;
     align-items: flex-start;
-    margin-left: 0; } }
+    margin-left: 0; }
+  .about p {
+    text-align: justify; } }
 
 @media (max-width: 480px) {
   .header__search {
