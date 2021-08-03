@@ -38,6 +38,7 @@
 }
 
 .info__card-block-desc {
+  flex: 0 1 710px;
   padding: 39px 58px 40px 40px;
   p {
     font-size: 16px;
@@ -51,6 +52,7 @@
 }
 .info__charact-row {
   justify-content: space-between;
+  flex-wrap: wrap;
   font-size: 16px;
   margin-bottom: 15px;
 }
@@ -95,7 +97,7 @@
 }
 
 .info__card-block-img {
-  flex: 0 0 510px;
+  flex: 0 1 510px;
   max-height: 361px;
   overflow: hidden;
   border-radius: 10px;
