@@ -37,10 +37,10 @@
 	}
 	// .menu__link
 	a {
-		font-family: 'Lato';
+		font-family: 'Bahnschrift';
 		// display: block;
 		font-size: 16px;
-		font-weight: 400;
+		font-weight: 300;
 		padding: 0px 0 8px 39px;
 	}
 }
@@ -50,6 +50,7 @@
 }
 
 .header__email {
+	font-weight: 600;
 	color: #000;
 	margin-right: 40px;
 	&::before {
@@ -67,6 +68,7 @@
 }
 
 .header__phone {
+	font-weight: 600;
 	color: #000;
 	margin-right: 23px;
 	&::before {
@@ -83,7 +85,7 @@
 }
 
 .header__popup-link {
-
+	font-weight: 600;
 }
 
 // Стиль иконки бургера

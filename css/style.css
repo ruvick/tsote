@@ -1,43 +1,43 @@
 @charset "UTF-8";
 @font-face {
-  font-family: "Lato";
+  font-family: "Bahnschrift";
   src: url("../fonts/Lato-Light.eot");
-  src: local("☺"), url("../fonts/Lato-Light.woff") format("woff"), url("../fonts/Lato-Light.ttf") format("truetype"), url("../fonts/Lato-Light.svg") format("svg");
+  src: local("☺"), url("../fonts/Bahnschrift-Light.woff") format("woff"), url("../fonts/Bahnschrift-Light.ttf") format("truetype"), url("../fonts/Bahnschrift-Light.svg") format("svg");
   font-weight: 300;
   font-style: normal; }
 
 @font-face {
-  font-family: "Lato";
-  src: url("../fonts/Lato-Regular.eot");
-  src: local("☺"), url("../fonts/Lato-Regular.woff") format("woff"), url("../fonts/Lato-Regular.ttf") format("truetype"), url("../fonts/Lato-Regular.svg") format("svg");
+  font-family: "Bahnschrift";
+  src: url("../fonts/Bahnschrift-Regular.eot");
+  src: local("☺"), url("../fonts/Bahnschrift-Regular.woff") format("woff"), url("../fonts/Bahnschrift-Regular.ttf") format("truetype"), url("../fonts/Bahnschrift-Regular.svg") format("svg");
   font-weight: 400;
   font-style: normal; }
 
 @font-face {
-  font-family: "Lato";
-  src: url("../fonts/Lato-Medium.eot");
-  src: local("☺"), url("../fonts/Lato-Medium.woff") format("woff"), url("../fonts/Lato-Medium.ttf") format("truetype"), url("../fonts/Lato-Medium.svg") format("svg");
+  font-family: "Bahnschrift";
+  src: url("../fonts/Bahnschrift-Medium.eot");
+  src: local("☺"), url("../fonts/Bahnschrift-Medium.woff") format("woff"), url("../fonts/Bahnschrift-Medium.ttf") format("truetype"), url("../fonts/Bahnschrift-Medium.svg") format("svg");
   font-weight: 500;
   font-style: normal; }
 
 @font-face {
-  font-family: "Lato";
-  src: url("../fonts/Lato-Semibold.eot");
-  src: local("☺"), url("../fonts/Lato-Semibold.woff") format("woff"), url("../fonts/Lato-Semibold.ttf") format("truetype"), url("../fonts/Lato-Semibold.svg") format("svg");
+  font-family: "Bahnschrift";
+  src: url("../fonts/Bahnschrift-Semibold.eot");
+  src: local("☺"), url("../fonts/Bahnschrift-Semibold.woff") format("woff"), url("../fonts/Bahnschrift-Semibold.ttf") format("truetype"), url("../fonts/Bahnschrift-Semibold.svg") format("svg");
   font-weight: 600;
   font-style: normal; }
 
 @font-face {
-  font-family: "Lato";
-  src: url("fonts/Lato-Bold.eot");
-  src: local("☺"), url("../fonts/Lato-Bold.woff") format("woff"), url("../fonts/Lato-Bold.ttf") format("truetype"), url("../fonts/Lato-Bold.svg") format("svg");
+  font-family: "Bahnschrift";
+  src: url("fonts/Bahnschrift-Bold.eot");
+  src: local("☺"), url("../fonts/Lato-Bold.woff") format("woff"), url("../fonts/Bahnschrift-Bold.ttf") format("truetype"), url("../fonts/Bahnschrift-Bold.svg") format("svg");
   font-weight: 700;
   font-style: normal; }
 
 @font-face {
-  font-family: "Lato";
-  src: url("../fonts/Lato-Heavy.eot");
-  src: local("☺"), url("../fonts/Lato-Heavy.woff") format("woff"), url("../fonts/Lato-Heavy.ttf") format("truetype"), url("../fonts/Lato-Heavy.svg") format("svg");
+  font-family: "Bahnschrift";
+  src: url("../fonts/Bahnschrift-Heavy.eot");
+  src: local("☺"), url("../fonts/Bahnschrift-Heavy.woff") format("woff"), url("../fonts/Bahnschrift-Heavy.ttf") format("truetype"), url("../fonts/Bahnschrift-Heavy.svg") format("svg");
   font-weight: 900;
   font-style: normal; }
 
@@ -78,7 +78,7 @@ body {
 
 body {
   line-height: 1;
-  font-family: "";
+  font-family: "Bahnschrift";
   -ms-text-size-adjust: 100%;
   -moz-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%; }
@@ -86,7 +86,7 @@ body {
 input,
 button,
 textarea {
-  font-family: ""; }
+  font-family: "Bahnschrift"; }
 
 input::-ms-clear {
   display: none; }
@@ -123,7 +123,7 @@ h6 {
 body {
   color: #5E5E5E;
   font-size: 20px;
-  font-weight: 400; }
+  font-weight: 300; }
   body a {
     color: #5E5E5E; }
   body.lock {
@@ -131,13 +131,13 @@ body {
 
 h1 {
   font-size: 44px;
-  font-weight: 500;
+  font-weight: 600;
   line-height: 52.8px;
   color: #fff; }
 
 h2 {
   font-size: 30px;
-  font-weight: 500;
+  font-weight: 600;
   line-height: 36px;
   color: #000; }
 
@@ -1003,9 +1003,9 @@ body.ie .ibg img {
   flex-wrap: wrap; }
 
 .menu a {
-  font-family: 'Lato';
+  font-family: 'Bahnschrift';
   font-size: 16px;
-  font-weight: 400;
+  font-weight: 300;
   padding: 0px 0 8px 39px; }
 
 .header__contact {
@@ -1014,6 +1014,7 @@ body.ie .ibg img {
   align-items: center; }
 
 .header__email {
+  font-weight: 600;
   color: #000;
   margin-right: 40px; }
   .header__email::before {
@@ -1029,6 +1030,7 @@ body.ie .ibg img {
     background-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB3aWR0aD0iMTciIGhlaWdodD0iMTMiIHZpZXdCb3g9IjAgMCAxNyAxMyI+DQogIDxpbWFnZSBpZD0iZW1haWwtb3V0bGluZSIgd2lkdGg9IjE3IiBoZWlnaHQ9IjEzIiB4bGluazpocmVmPSJkYXRhOmltYWdlL3BuZztiYXNlNjQsaVZCT1J3MEtHZ29BQUFBTlNVaEVVZ0FBQUJFQUFBQU5DQVlBQUFCUGVZVWFBQUFBQkhOQ1NWUUlDQWdJZkFoa2lBQUFBTjFKUkVGVUtGTmp6RDZ1emNQQXdMQUFpSTJCbUJHSWlRWC9nUXJQQW5FQ0k5Q1FGQ0JqTmhDL0JPSVh4Sm9BVkNjQnhPSkFuQW95cEFESTZBZmk3MERjQk1TOVFQd2JqMkdzUUxsaUlLNERZazRnTGtRMlpDZFF3QTJJcndKeE9oQWZ3MktRRlZCc0poQnJBL0V1SUhaSE44UVFLTUNGcEdnV2tGMEJ4QitBV0FDSU80QTREY21TYjBEMmVXeUdYQUFLSWp2M0U1QS9BNGd6Z0pnUHpic0crQXlCK1VJSnlKZ0dkVExJcTFsQWZBL0ppMFFaQWxNUFVneHlJVG9neVJBcytzRkNnOVFRV0lvRkplRXZ1TnlPUlJ5VVhVQlpCWnhpS2M0N0FNd09VSmVnRXNUcEFBQUFBRWxGVGtTdVFtQ0MiLz4NCjwvc3ZnPg0K"); }
 
 .header__phone {
+  font-weight: 600;
   color: #000;
   margin-right: 23px; }
   .header__phone::before {
@@ -1041,6 +1043,9 @@ body.ie .ibg img {
     background-position: 0 0;
     background-repeat: no-repeat;
     background-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB3aWR0aD0iMTMiIGhlaWdodD0iMTMiIHZpZXdCb3g9IjAgMCAxMyAxMyI+DQogIDxpbWFnZSBpZD0icGhvbmUiIHdpZHRoPSIxMyIgaGVpZ2h0PSIxMyIgeGxpbms6aHJlZj0iZGF0YTppbWFnZS9wbmc7YmFzZTY0LGlWQk9SdzBLR2dvQUFBQU5TVWhFVWdBQUFBMEFBQUFOQ0FZQUFBQnk2K1I4QUFBQUJITkNTVlFJQ0FnSWZBaGtpQUFBQU50SlJFRlVLRk9Oa0wwTFFWRVloKytkWkRNb2l6TFlFR1ZnVm1TenlxaHNTaVlyLzRQUlB5QWJzMlJRTXNySEltVmg4SkhNREo2M3pxbVRMc2VwcC9lOW5kOXozbk9QVzUvSGg0N2pwRURXSFRMd1ZOK2V4VVU2c0JNeGRzUDBSNXUwVUtmclhJNW1hcE42QkdwR3FFSGZ0VWxsQW4wVldsTmwwdFVtK1FtYzRBVXh1UHdTWkU4ZVFtb2JPbENBOGIrU1RGdUJEN0pxOGxkWFQ1SkFHbWF3aDZJaEJ1a3I2dEFkOVd4S0l1WmhCRGVvd2hJbWtEREdiajhsUFhGQUV3VjVSWmxrcm9lWEpBSDV4eFkwSWZDdnBITWlsOVMxazlRUWJONEVMalkyN00rcG1RQUFBQUJKUlU1RXJrSmdnZz09Ii8+DQo8L3N2Zz4NCg=="); }
+
+.header__popup-link {
+  font-weight: 600; }
 
 .icon-menu {
   display: none;
@@ -1238,7 +1243,9 @@ body.ie .ibg img {
     .footer__menu li:last-child {
       margin-bottom: 0; }
     .footer__menu li a {
+      font-family: 'Bahnschrift';
       font-size: 16px;
+      font-weight: 300;
       color: #E9E9E9; }
   .footer__contact {
     -webkit-box-orient: vertical;
@@ -1286,11 +1293,13 @@ body.ie .ibg img {
 
 .breadcrumb ul li {
   font-size: 14px;
+  font-weight: 300;
   line-height: 23px;
   color: #000; }
 
 .breadcrumb ul li a {
   font-size: 14px;
+  font-weight: 300;
   line-height: 23px;
   margin-right: 5px;
   color: #5E5E5E;
@@ -1305,6 +1314,7 @@ body.ie .ibg img {
   padding: 39px 58px 40px 40px; }
   .info__card-block-desc p {
     font-size: 16px;
+    font-weight: 300;
     line-height: 19.2px;
     margin-bottom: 20px; }
 
@@ -1448,6 +1458,7 @@ body.ie .ibg img {
 
 .slider__text p {
   font-size: 22px;
+  font-weight: 300;
   line-height: 26.4px;
   color: #fff; }
 
@@ -1469,6 +1480,7 @@ body.ie .ibg img {
 
 .about p {
   font-size: 20px;
+  font-weight: 300;
   line-height: 24px; }
 
 .services {
@@ -1491,6 +1503,8 @@ body.ie .ibg img {
   margin-bottom: 28px; }
 
 .services__btn {
+  font-weight: 600;
+  color: #5E5E5E;
   padding: 12px 16px;
   cursor: pointer;
   background: #F4F4F4;
@@ -1551,11 +1565,13 @@ body.ie .ibg img {
 
 .card__desc h4 {
   font-size: 16px;
+  font-weight: 300;
   line-height: 19.2px;
   margin-bottom: 8px; }
 
 .card__link {
   font-size: 12px;
+  font-weight: 600;
   color: #6BC72B;
   text-decoration: underline; }
 
