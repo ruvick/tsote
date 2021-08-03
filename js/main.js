@@ -398,7 +398,25 @@ $('.clients__slider').slick({
 	slidesToShow: 5,
 	autoplay: true,
 	autoplaySpeed: 1800,
-	adaptiveHeight: true
+	adaptiveHeight: true,
+	responsive: [
+		{
+			breakpoint: 812,
+			settings: {
+				slidesToShow: 4,
+			}
+		}, {
+			breakpoint: 612,
+			settings: {
+				slidesToShow: 3,
+			}
+		}, {
+			breakpoint: 480,
+			settings: {
+				slidesToShow: 2,
+			}
+		}
+	]
 });
 
 
