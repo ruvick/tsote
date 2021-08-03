@@ -1493,15 +1493,15 @@ body.ie .ibg img {
   justify-content: space-between;
   -webkit-box-align: center;
   -ms-flex-align: center;
-  align-items: center; }
+  align-items: center;
+  margin-bottom: 28px; }
 
 .services__btn-block {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   border-radius: 5px;
-  overflow: hidden;
-  margin-bottom: 28px; }
+  overflow: hidden; }
 
 .services__btn {
   font-weight: 600;
@@ -1646,6 +1646,12 @@ body.ie .ibg img {
   .container {
     padding: 0 10px; } }
 
+@media (max-width: 1200px) {
+  .card__body {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 1 32%;
+    flex: 0 1 32%; } }
+
 @media (max-width: 1150px) {
   .slider__item {
     padding: 80px 0; } }
@@ -1657,6 +1663,12 @@ body.ie .ibg img {
     padding: 45px 0 60px 0; }
   .about {
     padding: 35px 0 60px 0; } }
+
+@media (max-width: 960px) {
+  .card__body {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 1 48%;
+    flex: 0 1 48%; } }
 
 @media (max-width: 940px) {
   .header__menu {
@@ -1735,6 +1747,12 @@ body.ie .ibg img {
     -o-transition: right 0.8s;
     transition: right 0.8s; } }
 
+@media (max-width: 630px) {
+  .card__body {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 1 49.3%;
+    flex: 0 1 49.3%; } }
+
 @media (max-width: 612px) {
   .header__nav-block {
     width: 100%; }
@@ -1761,7 +1779,20 @@ body.ie .ibg img {
   .footer__contact .header__email {
     display: block; }
   .footer__logo {
-    margin-right: 5px; } }
+    margin-right: 5px; }
+  .services__row {
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center; }
+  .card__body {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 1 90%;
+    flex: 0 1 90%; }
+  .services__title-btn {
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap; }
+  .services__title-btn h2 {
+    margin-bottom: 10px; } }
 
 @media (max-width: 515px) {
   .header__callback {
@@ -1784,7 +1815,12 @@ body.ie .ibg img {
     align-items: flex-start;
     margin-left: 0; }
   .about p {
-    text-align: justify; } }
+    text-align: justify; }
+  .card__body {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 1 100%;
+    flex: 0 1 100%;
+    margin-bottom: 15px; } }
 
 @media (max-width: 480px) {
   .header__search {
@@ -1818,7 +1854,13 @@ body.ie .ibg img {
 
 @media (max-width: 414px) {
   .slider__text {
-    padding: 15px; } }
+    padding: 15px; }
+  .services__btn-block {
+    width: 100%;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column; } }
 
 @media (max-width: 360px) {
   .header__phone {
