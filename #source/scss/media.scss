@@ -268,3 +268,9 @@
 	.breadcrumb ul li {
 		font-size: 12px; }
 }
+
+@media (max-width: 320px) {
+	.clients__slider .slick-arrow.slick-next {
+		right: 45px;
+	}
+}
