@@ -168,6 +168,10 @@
 		flex-wrap: wrap; }
 	.services__title-btn h2 {
 		margin-bottom: 10px; }
+	.popup__form-block {
+		padding: 35px 15px;}
+	.popup__item img {
+			width: 40%; }
 }
 
 @media (max-width: 515px) {
@@ -204,6 +208,12 @@
 		padding-bottom: 30px; }
 	.info__card-block-desc p {
 		text-align: justify; }
+	.popup__item img {
+		display: none; }
+	.popup__form-block {
+		padding: 20px;}
+	.popup__form-block h2 {
+		margin-bottom: 35px;}
 }
 
 @media (max-width: 480px) {
@@ -267,6 +277,8 @@
 			font-size: 12px; }
 	.breadcrumb ul li {
 		font-size: 12px; }
+	.popup__form-block {
+		padding: 35px 20px 20px 20px;}
 }
 
 @media (max-width: 320px) {
