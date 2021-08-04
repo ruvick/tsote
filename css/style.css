@@ -809,7 +809,9 @@ body.ie .ibg img {
 .tab__item {
   display: none; }
   .tab__item.active {
-    display: block; }
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex; }
 
 .mirror {
   -webkit-transform: scale(-1, 1);
