@@ -130,9 +130,9 @@ body {
     overflow: hidden; }
 
 h1 {
-  font-size: calc(24px + 16 * ((100vw - 320px) / (1280 - 320)));
-  line-height: 132%;
+  font-size: 44px;
   font-weight: 600;
+  line-height: 52.8px;
   color: #fff; }
 
 h2 {
