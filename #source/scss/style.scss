@@ -96,23 +96,10 @@ body {
 
 //<ЗАГОЛОВКИ>=================================================================================================================
 h1 {
-	// font-size: 44px;
-	font-size: calc(24px + 16 * ((100vw - 320px) / (1280 - 320)));
-	line-height: 52.8 / 40 *100%;
+	font-size: 44px;
 	font-weight: 600;
-	// line-height: 52.8px;
-	// font-size: 10px;
-
-	// @include adaptiv-font(40, 24);
+	line-height: 52.8px;
 	color: #fff;}
-
-	// SCSS Миксин:
-	// $maxWidth: 1280;
-	// @mixin adaptiv-font($pcSize, $mobSize) {
-	//  $addSize: $pcSize - $mobSize;
-	//  $maxWidth: $maxWidth - 320;
-	//  font-size: calc(#{$mobSize + px} + #{$addSize} * ((100vw - 320px) / #{$maxWidth}));
-	// }
 
 h2 {
 	font-size: 31px;
