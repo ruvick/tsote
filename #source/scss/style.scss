@@ -96,9 +96,11 @@ body {
 
 //<ЗАГОЛОВКИ>=================================================================================================================
 h1 {
-	font-size: 44px;
+	// font-size: 44px;
+	font-size: calc(24px + 16 * ((100vw - 320px) / (1280 - 320)));
+	line-height: 52.8 / 40 *100%;
 	font-weight: 600;
-	line-height: 52.8px;
+	// line-height: 52.8px;
 	color: #fff;}
 h2 {
 	font-size: 30px;
@@ -237,6 +239,9 @@ h2 {
 .slider__text h1 {
 	margin-bottom: 29px;
 }
+
+
+
 
 .slider__text p {
 	font-size: 22px;
